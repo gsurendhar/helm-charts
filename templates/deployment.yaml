@@ -7,7 +7,7 @@ metadata:
     purpose: helm-charts-demo
     project: roboshop
 spec:
-  replicas: 3
+  replicas: {{ .Values.deployment.replicas}}
     # These are the labels replica set use to create pod replicas, this should match pod labels
   selector:
     matchLabels:
@@ -22,4 +22,4 @@ spec:
     spec:
       containers:
       - name: helm-nginx
-        image: nginx
+        image: nginx:{{ .Values.deployment.imageVersion }}
