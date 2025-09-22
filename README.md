@@ -27,7 +27,6 @@ This repository contains Helm charts for deploying applications on Kubernetes cl
 - [Common Helm Commands](#common-helm-commands)
 - [Customization](#customization)
 - [Testing Charts](#testing-charts)
-- [Contributing](#contributing)
 - [License](#license)
 
 ---
@@ -207,9 +206,3 @@ appVersion: 1.21.0
 ## 🔗 Useful Resources
 
 * [Official Helm Docs](https://helm.sh/docs/)
-* [Artifact Hub (Browse Helm Charts)](https://artifacthub.io/)
-* [Bitnami Helm Charts](https://github.com/bitnami/charts)
-
-```
-
----
